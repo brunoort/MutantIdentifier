@@ -1,0 +1,11 @@
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\bin\Debug\netcoreapp2.0\MutantIdentifier.deps.json
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\bin\Debug\netcoreapp2.0\MutantIdentifier.runtimeconfig.json
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\bin\Debug\netcoreapp2.0\MutantIdentifier.runtimeconfig.dev.json
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\bin\Debug\netcoreapp2.0\MutantIdentifier.dll
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\bin\Debug\netcoreapp2.0\MutantIdentifier.pdb
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\obj\Debug\netcoreapp2.0\MutantIdentifier.csprojAssemblyReference.cache
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\obj\Debug\netcoreapp2.0\MutantIdentifier.csproj.CoreCompileInputs.cache
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\obj\Debug\netcoreapp2.0\MutantIdentifier.AssemblyInfoInputs.cache
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\obj\Debug\netcoreapp2.0\MutantIdentifier.AssemblyInfo.cs
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\obj\Debug\netcoreapp2.0\MutantIdentifier.dll
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\obj\Debug\netcoreapp2.0\MutantIdentifier.pdb
