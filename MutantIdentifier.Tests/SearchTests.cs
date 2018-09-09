@@ -32,7 +32,7 @@ namespace MutantIdentifier.Tests
         [TestMethod]
         public void IsMutantFalseTest()
         {
-            //Arrange
+            //Arranger
             var dnaSequence = new string[] { "ATGCGA", "CAGTGC", "TTACTT", "AGACGG", "CACATA", "TCACTG" };
 
             //Act

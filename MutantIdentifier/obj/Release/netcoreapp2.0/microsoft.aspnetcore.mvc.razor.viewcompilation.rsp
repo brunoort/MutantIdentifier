@@ -1,0 +1,5 @@
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=MutantIdentifier
+--content-root=C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier
+--file=
