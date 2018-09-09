@@ -22,7 +22,7 @@ namespace MutantIdentifier.Tests
             var dnaSequence = new string[] { "ATGCGA", "CAGTGC", "TTACGT", "AGACGG", "CACCTA", "TCACTG" };
 
             //Act
-            var result = _searchRepository.IsMutant(dnaSequence);
+            var result = _searchRepository.IsMutantInDna(dnaSequence);
 
             //Assert
             Assert.AreEqual(result.ResultType, ResultType.Valid);
@@ -36,7 +36,7 @@ namespace MutantIdentifier.Tests
             var dnaSequence = new string[] { "ATGCGA", "CAGTGC", "TTACTT", "AGACGG", "CACATA", "TCACTG" };
 
             //Act
-            var result = _searchRepository.IsMutant(dnaSequence);
+            var result = _searchRepository.IsMutantInDna(dnaSequence);
 
             //Assert
             Assert.AreEqual(result.ResultType, ResultType.Valid);
@@ -50,7 +50,7 @@ namespace MutantIdentifier.Tests
             var dnaSequence = new string[] { "ATBCGA" };
 
             //Act
-            var result = _searchRepository.IsMutant(dnaSequence);
+            var result = _searchRepository.IsMutantInDna(dnaSequence);
 
             //Assert
             Assert.AreEqual(result.ResultType, ResultType.Invalid);
@@ -64,7 +64,7 @@ namespace MutantIdentifier.Tests
             var dnaSequence = new string[] {};
 
             //Act
-            var result = _searchRepository.IsMutant(dnaSequence);
+            var result = _searchRepository.IsMutantInDna(dnaSequence);
 
             //Assert
             Assert.AreEqual(result.ResultType, ResultType.Invalid);            

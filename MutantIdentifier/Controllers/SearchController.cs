@@ -37,7 +37,7 @@ namespace MutantIdentifier.Controllers
                 if (dnaSequenceViewModel != null)
                 {
                     var dnaSequence = JsonConvert.DeserializeObject<string[]>(dnaSequenceViewModel.dna.ToString());
-                    var result = _searchRepository.IsMutant(dnaSequence);
+                    var result = _searchRepository.IsMutantInDna(dnaSequence);
 
                     _statsRepository.GenerateStats(result.IsMutant);
 

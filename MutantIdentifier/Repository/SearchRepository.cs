@@ -8,7 +8,7 @@ namespace MutantIdentifier.Repository
 {
     public interface ISearchRepository
     {
-        SearchResult IsMutant(string[] dna);
+        SearchResult IsMutantInDna(string[] dna);
     }
 
     public class SearchRepository : ISearchRepository
@@ -18,7 +18,7 @@ namespace MutantIdentifier.Repository
         {
         }
 
-        public SearchResult IsMutant(string[] dna)
+        public SearchResult IsMutantInDna(string[] dna)
         {
             var result = new SearchResult();
             int sequenceIdentified = 0;
