@@ -41,12 +41,12 @@ namespace MutantIdentifier.Repository
             int qtdSearch = stats.Count();
             int qtdMutants = stats.Where(x => x.IsMutant == true).Count();
             int qtdHumans = (qtdSearch - qtdMutants);
-            double ratioCalc = 0;
+            double ratioCalc;
 
             if (qtdHumans == 0)
                 ratioCalc = 1;
             else
-                ratioCalc = qtdMutants / qtdHumans;
+                ratioCalc = (double)qtdMutants/qtdHumans;
 
             var result = new StatsResultModel()
             {
@@ -57,6 +57,6 @@ namespace MutantIdentifier.Repository
 
             return result;
         }
-        
+
     }
 }
