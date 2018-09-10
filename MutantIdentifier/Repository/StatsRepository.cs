@@ -52,7 +52,7 @@ namespace MutantIdentifier.Repository
             {
                 count_human_dna = qtdHumans,
                 count_mutant_dna = qtdMutants,
-                ratio = ratioCalc
+                ratio = Math.Round(ratioCalc,2)
             };
 
             return result;
