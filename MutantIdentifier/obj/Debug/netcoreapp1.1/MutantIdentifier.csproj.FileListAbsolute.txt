@@ -1,0 +1,3 @@
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\obj\Debug\netcoreapp1.1\MutantIdentifier.csproj.CoreCompileInputs.cache
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\obj\Debug\netcoreapp1.1\MutantIdentifier.AssemblyInfoInputs.cache
+C:\Users\administrator\Desktop\MutantIdentifier\MutantIdentifier\obj\Debug\netcoreapp1.1\MutantIdentifier.AssemblyInfo.cs

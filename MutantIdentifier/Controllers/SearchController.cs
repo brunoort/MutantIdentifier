@@ -22,13 +22,19 @@ namespace MutantIdentifier.Controllers
         //Repositories
         private readonly ISearchRepository _searchRepository;
         private readonly IStatsRepository _statsRepository;
-                
+
         public SearchController(ISearchRepository searchRepository, IStatsRepository statsRepository)
         {
             this._searchRepository = searchRepository;
             this._statsRepository = statsRepository;
         }
-        
+
+        [HttpGet]
+        public string Status()
+        {
+            return "OK";
+        }
+
         [HttpPost]
         public IActionResult MutantIdentifier([FromBody] dynamic dnaSequenceViewModel)
         {

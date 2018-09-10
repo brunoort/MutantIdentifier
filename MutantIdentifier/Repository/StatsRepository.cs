@@ -40,7 +40,7 @@ namespace MutantIdentifier.Repository
 
             int qtdSearch = stats.Count();
             int qtdMutants = stats.Where(x => x.IsMutant == true).Count();
-            int qtdHumans = (qtdMutants - qtdSearch);
+            int qtdHumans = (qtdSearch - qtdMutants);
             int ratioCalc = 0;
 
             if (qtdHumans == 0)
